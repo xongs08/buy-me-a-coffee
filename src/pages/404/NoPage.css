@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #282c34;
 }
 
 .container {
@@ -17,18 +17,18 @@
     max-width: 400px;
 }
 
-h1 {
+.error-container h1 {
     font-size: 120px;
     margin: 0;
     color: #e74c3c;
 }
 
-p {
-    color: #444;
+.error-container p {
+    color: #f2f2f2;
     margin: 10px 0;
 }
 
-a {
+.error-container a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #3498db;
@@ -38,6 +38,6 @@ a {
     transition: background-color 0.3s;
 }
 
-a:hover {
+.error-container a:hover {
     background-color: #2980b9;
 }
