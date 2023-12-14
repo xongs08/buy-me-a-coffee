@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+  
+.App {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+  
+.paymentOptions a img {
+    background-color: #820f0f;
+    width: 400px;
+    height: 45px;
+    aspect-ratio: 3/1;
+    object-fit: contain;
+    transition: all .5s;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 5px 7px #d69a9a;
+}
+  
+.paymentOptions a img:hover {
+    background-color: #a2a19f;
+    box-shadow: 0px 0px #282c34;
+    width: 500px;
+    height: 60px;
+}
+
+#github-anchor {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+  
+#github-anchor-img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+}
+  
+#github-anchor-img:hover {
+    height: 130px;
+    width: 130px;
+}
+
+@media (max-width: 800px) {
+    .paymentOptions {
+      min-width: auto;
+      max-width: auto;
+    }
+}
