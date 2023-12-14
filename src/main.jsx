@@ -7,23 +7,8 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './pages/homepage/HomePage.jsx';
 import PixPage from './pages/pix/PixPage.jsx';
-import NoPage from './pages/NoPage.jsx';
+import NoPage from './pages/404/NoPage.jsx';
 import App from './App.jsx';
-
-// const Router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <HomePage />
-//   },
-//   {
-//     path: "/pix",
-//     element: <PixPage />
-//   },
-//   {
-//     path: "/*",
-//     element: <NoPage />
-//   },
-// ]);
 
 const Router = createBrowserRouter([
   {
@@ -38,6 +23,10 @@ const Router = createBrowserRouter([
         path: "/pix",
         element: <PixPage />
       },
+      {
+        path: "/*",
+        element: <NoPage />
+      }
     ]
   },
 ]);
