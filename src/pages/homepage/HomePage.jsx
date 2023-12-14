@@ -5,7 +5,7 @@ export default function HomePage () {
       <div className="App">
         <div className="paymentOptions">
           <h2>Me pague um café ☕</h2>
-          <a href="/buy-me-a-coffee/pix">
+          <a href="/pix">
             <img src="https://www.imagensempng.com.br/wp-content/uploads/2023/06/logo-pix-icone-1024.png" />  
           </a>
         </div>

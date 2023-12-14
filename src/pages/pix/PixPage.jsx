@@ -71,7 +71,7 @@ export default function PixPage() {
             <br />
           </>
         )}
-
+        
         <div id="qrcode"></div>
       </form>
     </div>
