@@ -1,7 +1,15 @@
 import './PixPage.css';
 import React, { useState } from 'react';
 import { QrCodePix } from 'qrcode-pix';
-import createElement from '../../CreateElement';
+
+function createElement(elementName, attributes) {
+  const element = document.createElement(elementName);
+  const attributesAsArray = Object.entries(attributes);
+
+  attributesAsArray.forEach(([key, value]) => element.setAttribute(key, value));
+
+  return element;
+}
 
 export default function PixPage() {
   const [valor, setValor] = useState(0);
