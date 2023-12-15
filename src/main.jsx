@@ -16,15 +16,15 @@ const Router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/buy-me-a-coffee/",
         element: <HomePage />
       },
       {
-        path: "/pix",
+        path: "/buy-me-a-coffee/pix",
         element: <PixPage />
       },
       {
-        path: "/*",
+        path: "/buy-me-a-coffee/*",
         element: <NoPage />
       }
     ]
